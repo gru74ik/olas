@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16.0)
+cmake_minimum_required(VERSION 3.19.0)
 
 project(OLAS VERSION 1.0)
 
