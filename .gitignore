@@ -46,4 +46,5 @@ _deps
 
 # Build directory
 out/build/
+build/
 [Bb][Uu][Ii][Ll][Dd]/
