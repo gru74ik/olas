@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.19.0)
 
 project(OLAS VERSION 1.0)
 
+
 add_executable(${PROJECT_NAME} main.cpp)
 
 #adder use logic
@@ -58,3 +59,6 @@ target_link_libraries(${PROJECT_NAME}
     glfw
     ${EXTRA_LINK_LIBS}
 )
+
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)
+install(FILES "${PROJECT_BINARY_DIR}/OLASConfig.h" DESTINATION include)
